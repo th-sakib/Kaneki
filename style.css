@@ -1,0 +1,66 @@
+@font-face {
+	font-family: roboto;
+	src: url('fonts/Roboto-Black.ttf');
+}
+@font-face {
+	font-family: nightcore;
+	src: url('fonts/Nightcore.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: roboto;
+	background: url('images/bg2.jpg') no-repeat;
+	background-size: cover;
+	color: #ff9494;
+}
+.para {
+	width: 152%;
+	line-height: 23px;
+	padding-top: 20px;
+}
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.intro {
+	margin: 0 1%;
+	background: url("images/tenticals.png") no-repeat 525px -250px;
+	background-size: 70%;
+}
+.spooky {
+	font-family: nightcore;
+	font-size: 45px;
+	color:  red;
+}
+.half-width {
+	width: 40%;
+	float: left;
+	margin: 5%;
+	padding: 2%;
+}
+.half-width img {
+	width: 80%;
+	margin-top: -80px;
+}
+#img {
+	width: 125%;
+}
+#padding-left {
+	margin-left: -70px;
+}
+.para2 {
+	width: 140%;
+}
+.card {
+	background-color: #ff00003d;
+	box-shadow: 10px 5px 30px #f00;
+	height: 280px;
+}
+.footer {
+	text-align: center;
+}
